@@ -28,10 +28,10 @@ app.get("/", (req, res) => {
     })
 })
 
-app.get("/alumnos", (req, res) => {
+app.get("/aulas", (req, res) => {
     res.render("index", {
-        titulo: "Estamos en la página Alumnos",
-        descripcion : "Cosillas de alumnos"
+        titulo: "Nuestras aulas",
+        descripcion : "Nuestras aulas están perfectamente equipadas para la docencia actual."
     })
 })
 
