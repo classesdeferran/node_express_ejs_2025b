@@ -29,9 +29,24 @@ app.get("/", (req, res) => {
 })
 
 app.get("/aulas", (req, res) => {
-    res.render("index", {
+    res.render("tipo", {
         titulo: "Nuestras aulas",
-        descripcion : "Nuestras aulas están perfectamente equipadas para la docencia actual."
+        title : "Aulas",
+        descripcion : "Nuestras aulas están perfectamente equipadas para la docencia actual.",
+        imagen1 : "https://plus.unsplash.com/premium_photo-1680807869780-e0876a6f3cd5?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        imagen2 : "https://images.unsplash.com/photo-1604134967494-8a9ed3adea0d?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+    })
+})
+
+app.get("/cursos", (req, res) => {
+    res.render("tipo", {
+        titulo: "Nuestros cursos",
+        title : "Cursos",
+        descripcion : "Facilitamos el aprendizaje de las tecnologías actuales.",
+        imagen1 : "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        imagen2 : "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
     })
 })
 
