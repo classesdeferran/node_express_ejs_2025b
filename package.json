@@ -1,0 +1,29 @@
+{
+  "name": "express_3_ejs",
+  "version": "1.0.0",
+  "description": "Ejemplo de plantillas Node-Express-EJS",
+  "keywords": [
+    "Node",
+    "Express",
+    "EJS"
+  ],
+  "homepage": "https://github.com/classesdeferran/node_express_ejs_2025b#readme",
+  "bugs": {
+    "url": "https://github.com/classesdeferran/node_express_ejs_2025b/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classesdeferran/node_express_ejs_2025b.git"
+  },
+  "license": "ISC",
+  "author": "Ferran",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "ejs": "3.1.10",
+    "express": "5.1.0"
+  }
+}
